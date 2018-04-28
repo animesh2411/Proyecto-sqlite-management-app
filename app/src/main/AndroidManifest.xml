@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shubham.proyecto"
+    android:theme="@android:style/Theme.NoTitleBar">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Home" />
+        <activity android:name=".Login" />
+        <activity android:name=".Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddAccount" />
+        <activity android:name=".UpdateAccount" />
+        <activity android:name=".DeleteAccount" />
+        <activity
+            android:name=".AdminPortal"
+            android:label="Admin Portal"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Update" />
+        <activity
+            android:name=".AcademicHead"
+            android:label="Academic Head"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".AddCourses" />
+        <activity android:name=".AddTraining" />
+        <activity android:name=".ViewCourses" />
+        <activity android:name=".ViewTraining" />
+        <activity android:name=".AddProject" />
+        <activity android:name=".ViewProject" />
+        <activity
+            android:name=".Counsellor"
+            android:label="@string/title_activity_counsellor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ViewStudent" />
+        <activity android:name=".ViewCReports" />
+        <activity android:name=".ViewRReports" />
+        <activity android:name=".ViewAllotments"></activity>
+    </application>
+
+</manifest>
